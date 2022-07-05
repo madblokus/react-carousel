@@ -1,0 +1,34 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: #222222;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.offer-carousel {
+  position: relative;
+}
+[data-arrow] {
+  position: absolute;
+  top: 132px;
+  z-index: 1;
+}
+
+[data-arrow="right"] {
+  right: 8px;
+}
+
+[data-arrow="left"] {
+  left: 8px;
+}

@@ -1,0 +1,76 @@
+.offer {
+  display: flex;
+  flex-direction: column;
+  min-width: 254px;
+  margin: 4px;
+  border-radius: 8px;
+  height: 432px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.16);
+}
+
+.cardTextBottom {
+  display: flex;
+  gap: 6px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #767676;
+}
+
+.imageContainer {
+  position: relative;
+  height: 100%;
+  width: auto;
+}
+
+.imageHelper {
+  height: 212px;
+  position: relative;
+}
+
+.title {
+  margin: 0 0 4px 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.information {
+  padding: 16px 16px 8px 16px;
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  justify-content: space-between;
+  flex-direction: column;
+  display: flex;
+}
+
+.topCardInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.titleCallToAction {
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 16px;
+  color: #FF5A00;
+}
+
+.saleAmount {
+  display: flex;
+  flex-direction: row;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  align-items: baseline;
+}
+
+.saleSmallAmount {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.currencyTitle {
+  margin-left: 2px;
+}

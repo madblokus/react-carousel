@@ -1,0 +1,30 @@
+.carousel-base {
+	width: 100%;
+	box-sizing: border-box;
+	display: flex;
+	outline: none;
+	position: relative;
+}
+
+.item-provider {
+	overflow: hidden;
+	width: 100%;
+	cursor: pointer;
+}
+
+.item-container img {
+	user-select: none;
+	-webkit-user-drag: none;
+}
+
+.item-tracker {
+	height: 100%;
+	display: flex;
+}
+
+.slider {
+	display: flex;
+	overflow-x: auto;
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+}

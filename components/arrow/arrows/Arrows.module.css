@@ -1,0 +1,9 @@
+.arrowContainer {
+  background-color: #FFFFFF;
+  opacity: 0.5;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
